@@ -1,0 +1,31 @@
+//* Row/*
+.row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+@media (min-width: 768px){
+.contenedor{
+    width: 50%;
+}
+
+.newsletter{
+    width: 50%;
+}
+
+.listado-izquierdo{
+    width: 50%;
+}
+}
+
+@media (min-width: 992px){
+.contenedor {
+    width: 970px;  
+}
+
+}
+
+@media (min-width: 1200px) {
+
+
+}
